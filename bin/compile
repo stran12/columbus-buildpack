@@ -8,6 +8,13 @@ maxmind_db=http://s3.amazonaws.com/rbtv-v3/geoip_db-latest.tgz
 	cd /tmp &&
 	curl -L $maxmind_db | tar xzv
 	echo "-----> columbus-buildpack: moved maxmind db to /tmp/geoip_db/GeoIP2-City.mmdb"
+	ls -al
 )
+
+while true
+do
+	sleep 1
+	echo "."
+done
 
 exit 0
