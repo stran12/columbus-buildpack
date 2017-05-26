@@ -2,7 +2,7 @@
 
 set -e
 
-maxmind_db=https://s3.amazonaws.com/rbtv-v3/geoip_db-latest.tgz
+maxmind_db=http://s3.amazonaws.com/rbtv-v3/geoip_db-latest.tgz
 
 (
 	cd /tmp &&
